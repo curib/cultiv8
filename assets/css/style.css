@@ -13,8 +13,17 @@ body {
     height: 100%;
     width: 100%;
     margin-top: 20%;
-    font-size: 70;
+    font-size: large;
     text-align: center;
     color: white; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-size: 150px;
+}
+
+.navbar-nav{
+    padding-left: 65%;
 }
 
