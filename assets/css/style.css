@@ -1,5 +1,8 @@
 body {
-    background: white;
+}
+
+.background {
+    opacity: 0.5;
 }
 
 .mission-module{
@@ -9,8 +12,8 @@ body {
 .mission-statement{
     height: 100%;
     width: 100%;
+    margin-top: 25%;
     text-align: center;
-    color: red; 
-
+    color: brown; 
 }
 
