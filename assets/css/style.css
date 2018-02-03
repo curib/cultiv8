@@ -1,8 +1,5 @@
 body {
-}
-
-.background {
-    opacity: 0.5;
+    background: white;
 }
 
 .mission-module{
@@ -12,8 +9,15 @@ body {
 .mission-statement{
     height: 100%;
     width: 100%;
-    margin-top: 25%;
     text-align: center;
-    color: brown; 
+    color: red; 
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.logo{
+    height: 60;
+    width: 180;
+    background: url("../assets/images/cultiv8_logo.png");
 }
 
