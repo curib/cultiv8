@@ -22,9 +22,21 @@ body {
     background: url("../assets/images/cultiv8_logo.png");
 =======
     margin-top: 20%;
-    font-size: 70;
+    font-size: large;
     text-align: center;
     color: white; 
+<<<<<<< HEAD
 >>>>>>> 7c7e6667cc87b938a165971aed85bb77f2a49ed9
+=======
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-size: 150px;
+}
+
+.navbar-nav{
+    padding-left: 65%;
+>>>>>>> 47554b7e8a23846e79c913b4d5b7aaed6ff4f8eb
 }
 
