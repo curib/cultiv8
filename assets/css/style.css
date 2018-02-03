@@ -28,5 +28,33 @@ h1{
     padding-left: 55%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
+    color: white !important;
+    opacity: 90%;
+}
+
+.nav-item{
+    color: white !important;
+}
+
+.btn{
+    border-radius: 25px;
+    margin-left: 10%;
+}
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #E7E7E7;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: grey;
 }
 
