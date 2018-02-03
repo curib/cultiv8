@@ -1,4 +1,5 @@
 body {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .background {
@@ -24,6 +25,8 @@ h1{
 }
 
 .navbar-nav{
-    padding-left: 65%;
+    padding-left: 55%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
 }
 
