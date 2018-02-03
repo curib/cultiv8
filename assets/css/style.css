@@ -9,6 +9,7 @@ body {
 .mission-statement{
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
     text-align: center;
     color: red; 
     font-family: 'Ubuntu', sans-serif;
@@ -19,5 +20,11 @@ body {
     height: 60;
     width: 180;
     background: url("../assets/images/cultiv8_logo.png");
+=======
+    margin-top: 20%;
+    font-size: 70;
+    text-align: center;
+    color: white; 
+>>>>>>> 7c7e6667cc87b938a165971aed85bb77f2a49ed9
 }
 
