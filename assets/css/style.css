@@ -69,6 +69,14 @@ h6{
     text-align: center;
     color: white;
 }
+
+.h7{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+}
 .navbar-nav{
     padding-left: 60%;
     font-family: 'Ubuntu', sans-serif;
@@ -216,7 +224,7 @@ input[placeholder]::-webkit-input-placeholder{
     /* background-color: black; */
     /* opacity: 0.1; */
     height: 40%;
-    padding: 20px;
+    padding: 15px;
     margin-left: 75px;
     margin-right: 75px;
     text-align: center;
