@@ -69,6 +69,14 @@ h6{
     text-align: center;
     color: white;
 }
+
+.h7{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+}
 .navbar-nav{
     padding-left: 60%;
     font-family: 'Ubuntu', sans-serif;
@@ -88,7 +96,7 @@ h6{
     border-color: white;
     color: white;
     background: none;
-    margin: 20px;
+    margin: 0px 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -137,6 +145,7 @@ input[placeholder]::-webkit-input-placeholder{
 
 .btn2{
     border-radius: 25px;
+    color: #E67E22;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -166,7 +175,7 @@ input[placeholder]::-webkit-input-placeholder{
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 75px;
-    height: 500; /* Should be removed. Only for demonstration */
+    height: 500; 
 }
 
 /* Clear floats after the columns */
@@ -214,6 +223,7 @@ input[placeholder]::-webkit-input-placeholder{
     border: 1px solid white;
     /* background-color: black; */
     /* opacity: 0.1; */
+    height: 40%;
     padding: 15px;
     margin-left: 75px;
     margin-right: 75px;
@@ -222,3 +232,6 @@ input[placeholder]::-webkit-input-placeholder{
     border-radius: 50px;
 }
 
+.spacing{
+    padding: 5px 0px;
+}
