@@ -232,6 +232,19 @@ input[placeholder]::-webkit-input-placeholder{
     border-radius: 50px;
 }
 
+.item-box{
+    border: 1px solid white;
+    height: 10%;
+    width: 75%;
+    margin: 10px auto 0 auto;
+    padding: 6px 0px;
+    text-align: center;
+    border-radius: 20px;
+    color:#E67E22;
+    background-color: white;
+    opacity: 0.85;
+}
+
 .spacing{
     padding: 5px 0px;
 }
