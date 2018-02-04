@@ -36,12 +36,32 @@ h2{
 }
 
 h3{
-    padding-top: 700px;
+    padding-top: 850px;
     text-align: center;
     font-size: 60px;
     color: black;
 }
 
+h4{
+    font-size: 65px;
+    padding-top: 65px;
+    color: #E67E22;
+    text-align: center;
+}
+
+h5{
+    font-size: 50px;
+    color: #e74c3c;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+h6{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
 .navbar-nav{
     padding-left: 60%;
     font-family: 'Ubuntu', sans-serif;
@@ -69,7 +89,7 @@ h3{
     float: left;
     width: 50%;
     padding: 10px;
-    padding-top: 100px;
+    padding-top: 200px;
     height: 500px; /* Should be removed. Only for demonstration */
 }
 
@@ -77,12 +97,21 @@ h3{
     text-align: center;
     float: left;
     width: 50%;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 75px;
     height: 500px; /* Should be removed. Only for demonstration */
 }
 
+.column3 {
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 75px;
+    height: 500; /* Should be removed. Only for demonstration */
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -108,8 +137,6 @@ h3{
     color: grey;
 }
 
-
-
 .img-circle {
     border-radius: 50%;
 }
@@ -124,4 +151,14 @@ h3{
     display: block;
     height: auto;
     max-width: 100%;
+}
+
+.square{
+    width: 35%;
+    border: 5px solid rgb(219, 206, 14);
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    display: block;
 }
