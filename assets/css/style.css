@@ -167,7 +167,7 @@ input[placeholder]::-webkit-input-placeholder{
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 75px;
-    height: 500; /* Should be removed. Only for demonstration */
+    height: 500; 
 }
 
 /* Clear floats after the columns */
@@ -215,7 +215,8 @@ input[placeholder]::-webkit-input-placeholder{
     border: 1px solid white;
     /* background-color: black; */
     /* opacity: 0.1; */
-    padding: 15px;
+    height: 40%;
+    padding: 20px;
     margin-left: 75px;
     margin-right: 75px;
     text-align: center;
@@ -223,3 +224,6 @@ input[placeholder]::-webkit-input-placeholder{
     border-radius: 50px;
 }
 
+.spacing{
+    padding: 5px 0px;
+}
