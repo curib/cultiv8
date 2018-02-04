@@ -3,7 +3,12 @@ body {
 }
 
 .background {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    background-image: url("../images/ThisIsOurs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+    min-height: 900px;
 }
 
 .mission-module{
@@ -11,21 +16,34 @@ body {
 }
 
 .mission-statement{
-    height: 100%;
+    height: 100px;
     width: 100%;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     font-size: large;
     text-align: center;
     color: white; 
     font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 300px;
 }
 
 h1{
     font-size: 150px;
 }
 
+h2{
+    font-size: 50px;
+}
+
+h3{
+    padding-top: 700px;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
 .navbar-nav{
-    padding-left: 55%;
+    padding-left: 60%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     color: white !important;
@@ -39,6 +57,38 @@ h1{
 .btn{
     border-radius: 25px;
     margin-left: 10%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 100px;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .navbar-default {
@@ -58,3 +108,20 @@ h1{
     color: grey;
 }
 
+
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}

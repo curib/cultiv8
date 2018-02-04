@@ -12,60 +12,118 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <link rel="icon" type="image" href="../assets/images/cultiv8_icon.png" />
+
     <title>
         Cultiv8
     </title>
 
-    <link href="../assets/bootstrap/css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-default">
-        <!-- Brand/logo -->
-        <a class="navbar-brand" href="#">
-            <img src="../assets/images/cultiv8_logo.png" alt="cultiv8 Logo" height="60" width="180">
-        </a>
+    <section>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-default">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/cultiv8_logo_white.png" alt="cultiv8 Logo" height="60" width="180">
+            </a>
 
-        <!-- Links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Get Involved</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
-            </li>
-            <li class = "nav-item">
-                <button type="button" class="btn btn-outline-warning">Let's Start</button>
-            </li>
-        </ul>
-    </nav>
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutus">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#getinvolved">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-warning">Let's Start</button>
+                </li>
+            </ul>
+        </nav>
+    </section>
 
+    <section style="background: blue; min-height: 900px; position: relative;">
+        <div class="background">
+        </div>
+        <section id="mission" class="mission-module"></section>
+        <div class="mission-statement">
 
-    <!-- <div>
-        <img src="../assets/images/cultiv8_logo.png" alt="cultiv8 Logo" height="60" width="180">
-    </div> -->
+            <h1>This is Ours.</h1>
+        </div>
+    </section>
 
-    <!-- <body background = "../assets/images/veggies.jpg"> -->
-    <div class="background">
-        <style>
-            body {
-                background-image: url("../assets/images/ThisIsOurs.jpg");
-                background-size: contain;
-                background-repeat: no-repeat;
-
-            }
-        </style>
-    </div>
-    <section id="mission" class="mission-module"></section>
-    <div class="mission-statement">
-        <!-- <h1>Cultiv8</h1> -->
-        <h1>This is Ours.</h1>
-    </div>
+    <!-- <div class="row"> -->
+    <section>
+        <div class="column">
+            <i class="fas fa-leaf fa-5x"></i>
+            <h2 id="aboutus">About Us</h2>
+            <p>Welcome to Cultiv8.</p>
+            <p>
+                Here at Cultiv8, we are passionate about small
+                <br /> businesses who are dedicated to bringing fresh
+                <br /> food and products to their community. We realize
+                <br /> that there is a disconnect between local businesses
+                <br /> and consumers. Cultiv8 aims to solve this, by
+                <br /> creating a user experience centered on
+                <br /> cultivating the small business and
+                <br /> consumer relationship.
+                <br />
+            </p>
+        </div>
+        <div class="column">
+            <i class="fab fa-pagelines fa-5x"></i>
+            <h2 id="getinvolved">Get Involved</h2>
+            <p>Interested in contributing?</p>
+            <p>
+                Whether you want to volunteer your time for a
+                <br /> weekend, or bring an event to a farmer's market,
+                <br /> keep reading. Farmer's markets are only possible
+                <br /> because people come together to create them.
+                <br /> If you are interested in becoming involved, sign
+                <br /> up for Cultiv8, and select the farmer's markets
+                <br /> near you and find out exactly what they are
+                <br /> looking for.
+                <br />
+            </p>
+        </div>
+    </section>
+    <!-- </div> -->
+    <section>
+        <div>
+            <h3>Meet the Team</h3>
+        </div>
+        <div class="column2">
+            <img src="../assets/images/caro.jpg" class="img-circle" alt="Caro" height="200" width="200">
+            <h2 id="aboutus">Name</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="column2">
+            <img src="../assets/images/caro.jpg" class="img-circle" alt="Caro" height="200" width="200">
+            <h2 id="getinvolved">Name</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="column2">
+            <img src="../assets/images/caro.jpg" class="img-circle" alt="Caro" height="200" width="200">
+            <h2 id="getinvolved">Name</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="column2">
+            <img src="../assets/images/caro.jpg" class="img-circle" alt="Caro" height="200" width="200">
+            <h2 id="getinvolved">Name</h2>
+            <p>Some text..</p>
+        </div>
+    </section>
 </body>
 
 </html>
