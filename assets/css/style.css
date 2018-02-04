@@ -29,8 +29,8 @@ h1{
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
 }
-[4:48 PM, 2/3/2018] Carolina 💕😻 Uribe: body {
-    font-family: 'Ubuntu', sans-serif;
+    body {
+        font-family: 'Ubuntu', sans-serif;
 }
 
 .background {
@@ -64,7 +64,47 @@ h1{
     
 }
 
-.btn{
+.form-control{
+    width: 75%;
+    border-radius: 40px;
+    border-width: thin;
+    border-color: white;
+    color: white;
+    background: none;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form-group{
+    width:100%;
+}
+
+.btn-light{
+    background-color: floralwhite;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+input[placeholder]::-webkit-input-placeholder{
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    opacity: .5;
+}
+
+.centerbox{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.btn1{
     border-radius: 25px;
     margin-left: 10%;
+}
+
+.btn2{
+    border-radius: 25px;
 }
