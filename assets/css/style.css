@@ -51,13 +51,13 @@ h3{
 h4{
     font-size: 65px;
     padding-top: 65px;
-    color: #E67E22;
+    color: white;
     text-align: center;
 }
 
 h5{
     font-size: 50px;
-    color: #e74c3c;
+    color: white;
     text-align: center;
     padding-bottom: 100px;
 }
@@ -67,6 +67,7 @@ h6{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    color: white;
 }
 .navbar-nav{
     padding-left: 60%;
@@ -93,8 +94,21 @@ h6{
     text-align: center;
 }
 
+.form-control2{
+    width: 30%;
+}
+
+.form-control3{
+    width: 20%;
+}
+
 .form-group{
     width:100%;
+}
+
+.form-interests{
+    display: flex;
+    flex-direction: row;
 }
 
 .btn-light{
@@ -197,11 +211,15 @@ input[placeholder]::-webkit-input-placeholder{
 }
 
 .square{
-    width: 35%;
-    border: 5px solid rgb(219, 206, 14);
+    width: 40%;
+    border: 1px solid white;
+    /* background-color: black; */
+    /* opacity: 0.1; */
     padding: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
     text-align: center;
     display: block;
+    border-radius: 50px;
 }
+
